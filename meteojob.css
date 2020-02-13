@@ -1,10 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    background: url("img/bg-clouds.png"),linear-gradient(to top,#6CC2EB,#1299D8), no-repeat;
+    background: url("img/bg-clouds.png"),linear-gradient(to top,#6CC2EB,#1299D8), no-repeat, fixed;
     height: 100vh;
     width: 100vw;
-    background-attachment: fixed;
 
 }
 
@@ -41,12 +40,15 @@ h1{
 #bloc0 input{
     width: 237px;
     height: 20px;
+    padding-left: 10px;
 }
 
 #bloc0 label{
     padding-bottom: 5px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    font-weight: 600;
+    color: #16354e;
 }
 
 .name{
@@ -70,6 +72,7 @@ h1{
 #bloc1 input{
     width: 514px;
     height: 20px;
+    padding-left: 10px;
 }
 
 .email{
@@ -101,6 +104,8 @@ h1{
     padding-bottom: 5px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    font-weight: 600;
+    color: #16354e;
 }
 
 section>p{
@@ -109,7 +114,7 @@ section>p{
     margin-top: 5px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    font-weight: bolder;
+    font-weight: 600;
 }
 
 #bloc2{
@@ -131,6 +136,14 @@ section>p{
     color: black;
     display: flex;
     justify-content: center;
+}
+
+img{
+    position: relative;
+    top: -21px;
+    left: 490px;
+    width: 18px;
+    height: 16px;
 }
 
 .cdi{
@@ -189,6 +202,7 @@ section>p{
 .contrat{
     margin-top: -85px;
     margin-right: 135px;
+    font-weight: 600;
 }
 
 .button{
@@ -283,3 +297,5 @@ input:checked[type="checkbox"]:before{
     top: 8px;
     right: 12px;
 }
+
+
