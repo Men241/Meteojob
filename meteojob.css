@@ -9,7 +9,7 @@ body{
 
 #container{
     width: 600px;
-    height: 700px;
+    height: 730px;
     background-color: white;
     margin: 20px auto;
     border-radius: 5px;
@@ -39,7 +39,7 @@ h1{
 
 #bloc0 input{
     width: 237px;
-    height: 20px;
+    height: 25px;
     padding-left: 10px;
 }
 
@@ -71,7 +71,7 @@ h1{
 
 #bloc1 input{
     width: 514px;
-    height: 20px;
+    height: 25px;
     padding-left: 10px;
 }
 
@@ -84,7 +84,7 @@ h1{
 .password{
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 
 }
 
@@ -138,14 +138,10 @@ section>p{
     justify-content: center;
 }
 
-.cdi p{
-    color: white;
-}
-
 .eye{
     position: relative;
-    top: -21px;
-    left: 490px;
+    top: -23px;
+    left: 500px;
     width: 18px;
     height: 16px;
     opacity: 60%;
@@ -157,11 +153,23 @@ section>p{
     background-color: #217dbb;
 }
 
+
+.cdi p{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
 .cdd{
     width: 120px;
     height: 46px;
     background-color: #f2f2f2;
     margin-left: 10px;
+}
+
+.cdd p{
+    display: flex;
+    align-items: center;
 }
 
 .franchise{
@@ -173,7 +181,7 @@ section>p{
 
 .franchise p{
     text-align: center;
-    margin-top: 5px;
+    margin-top: 7px;
 }
 
 .interim{
@@ -183,12 +191,21 @@ section>p{
     margin-left: 10px;
 }
 
+.interim p{
+    display: flex;
+    align-items: center;
+}
+
 .stage{
     width: 120px;
     height: 46px;
     background-color: #f2f2f2;
     margin-top: -85px;
+}
 
+.stage p{
+    display: flex;
+    align-items: center;
 }
 
 .alternance{
